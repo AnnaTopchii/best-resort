@@ -1,0 +1,23 @@
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --white-color-80: rgba(255, 255, 255, 0.9);
+  --blue-color: #0b2e72;
+  --blue-color-50: rgba(11, 46, 114, 0.5);
+  --yellow-color: #decf19;
+  --yellow-color-50: rgba(222, 207, 25, 0.5);
+
+  --input-text-color: #888888;
+  --backDrop: rgba(97, 97, 97, 0.6);
+
+  --shadow: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25));
+  --animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* 
+
+transition: transform 800ms cubic-bezier(0.190, 1.000, 0.220, 1.000),opacity 600ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+
+transition: transform 1500ms cubic-bezier(0.190, 1.000, 0.220, 1.000),opacity 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+
+*/

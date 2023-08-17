@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "At what time can I check in and check out of the hotel?",
+    "answer": "Check-in is after 14:00 and check-out is before 12:00. These times may vary slightly depending on the destination you have chosen. You can request a late check-out or early check-in if you need it (this service is subject to availability and may incur a charge)."
+  },
+  {
+    "id": 2,
+    "question": "Is there a beach access?",
+    "answer": "We offer complimentary beach club access with umbrellas and sunbeds."
+  },
+  {
+    "id": 3,
+    "question": "When was the hotel open?",
+    "answer": "Best Resort was open in 2005, however its look & feel is brand new. The latest major renovation occurred in 2023."
+  },
+  {
+    "id": 4,
+    "question": "How can I get the best deal with Best Resort?",
+    "answer": "Go to our offers page to find the one that best matches your needs."
+  },
+  {
+    "id": 5,
+    "question": "How can customer service help you?",
+    "answer": "Our specialized advisors will guide you and recommend the best option for your holiday. You will be able to ask them any questions you may have, as we speak your language."
+  },
+  {
+    "id": 6,
+    "question": "How can I modify or cancel my booking?",
+    "answer": "You can modify your booking by calling our customer service."
+  },
+  {
+    "id": 7,
+    "question": "Can I organize my wedding, engagement or honeymoon at Best Resort?",
+    "answer": "Of course, we specialize in celebrating love. Discover all the options we have in store for you to shine like a star on your wedding day."
+  },
+  {
+    "id": 8,
+    "question": "Are pets allowed in the hotel?",
+    "answer": "Yes, your pet is welcome. (Service with extra cost)."
+  }
+]

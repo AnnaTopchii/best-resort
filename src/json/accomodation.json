@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "type": "PREMIUM TERRACE POOL-VIEW DOUBLE",
+    "imageURL": "https://apiimg.iberostar.com/uploads/image/69789/crops/16:9/1920/image.jpeg",
+    "gallery": [
+      "https://apiimg.iberostar.com/uploads/image/69792/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/69793/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/69790/crops/16:9/1920/image.jpeg"
+    ],
+    "price": 135,
+    "size": 30,
+    "capacity": {
+      "adults": 2,
+      "children": 2
+    },
+    "bed": "King bed (2x2m) or twin beds",
+    "view": "Pool view",
+    "description": "This room is located on the first floor and has access to a courtyard where you can spend time relaxing in maximum comfort. The accommodation also includes a small sofa where you can read or enjoy a freshly made coffee. Just like all rooms at the hotel, this accommodation is free of single-use plastics and forms part of a broad sustainability programme that seeks to protect the environment.",
+    "facilities": [
+      "Extra bed: sofa",
+      "Terrace",
+      "Free Wi-Fi",
+      "Smart TV 43",
+      "Minibar",
+      "Bathrobe and slippers",
+      "Pillow menu",
+      "Safe",
+      "Telephone",
+      "Coffee and Tea Kit",
+      "Hair dryer"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "POOL-VIEW JUNIOR SUITE",
+    "imageURL": "https://apiimg.iberostar.com/uploads/image/60624/crops/16:9/1920/image.jpeg",
+    "gallery": [
+      "https://apiimg.iberostar.com/uploads/image/20936/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/60625/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/75423/crops/16:9/1920/image.jpeg"
+    ],
+    "price": 139,
+    "size": 42,
+    "capacity": {
+      "adults": 2,
+      "children": 1
+    },
+    "bed": "King bed (2x2m)",
+    "view": "Pool view",
+    "description": "Nice and spacious, it’s perfect for enjoying peace, quiet and relaxation indoors. And if you prefer to be outdoors, head out to your terrace with pool views.",
+    "facilities": [
+      "Extra bed: sofa",
+      "Balcony",
+      "Free Wi-Fi",
+      "Smart TV 43",
+      "Minibar",
+      "Bathrobe and slippers",
+      "Pillow menu",
+      "Safe",
+      "Telephone",
+      "Coffee and Tea Kit",
+      "Hair dryer"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "SEA VIEW DOUBLE",
+    "imageURL": "https://apiimg.iberostar.com/uploads/image/18247/crops/16:9/1920/image.jpeg",
+    "gallery": [
+      "https://apiimg.iberostar.com/uploads/image/18251/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/18273/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/75405/crops/16:9/1920/image.jpeg"
+    ],
+    "price": 141,
+    "size": 30,
+    "capacity": {
+      "adults": 2,
+      "children": 2
+    },
+    "bed": "King bed (2x2m)",
+    "view": "Side sea view",
+    "description": "Step out onto the balcony of your Sea View Double room and gaze out over the Black Sea. Inside you have every comfort to allow you to experience total well-being on holiday in a plastic-free hotel, among many other measures to promote the circular economy.",
+    "facilities": [
+      "Balcony",
+      "Free Wi-Fi",
+      "Smart TV 43",
+      "Minibar",
+      "Bathrobe and slippers",
+      "Pillow menu",
+      "Safe",
+      "Telephone",
+      "Coffee and Tea Kit",
+      "Hair dryer"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "PREMIUM TERRACE JUNIOR SUITE POOL VIEW",
+    "imageURL": "https://apiimg.iberostar.com/uploads/image/69797/crops/16:9/1920/image.jpeg",
+    "gallery": [
+      "https://apiimg.iberostar.com/uploads/image/69803/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/69798/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/69801/crops/16:9/1920/image.jpeg"
+    ],
+    "price": 146,
+    "size": 42,
+    "capacity": {
+      "adults": 2,
+      "children": 1
+    },
+    "bed": "King bed (2x2m)",
+    "view": "Pool view",
+    "description": "This room has direct access to a courtyard where you can spend relaxing moments or even unwind in a Balinese bed. This sustainable room’s spacious interior is free of single-use plastics and is part of our circular economy programme.",
+    "facilities": [
+      "Extra bed: sofa",
+      "Terrace",
+      "Free Wi-Fi",
+      "Smart TV 43",
+      "Minibar",
+      "Bathrobe and slippers",
+      "Pillow menu",
+      "Safe",
+      "Telephone",
+      "Coffee and Tea Kit",
+      "Hair dryer"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "POOL-VIEW FAMILY ROOM",
+    "imageURL": "https://apiimg.iberostar.com/uploads/image/18228/crops/16:9/1920/image.jpeg",
+    "gallery": [
+      "https://apiimg.iberostar.com/uploads/image/18261/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/18227/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/18229/crops/16:9/1920/image.jpeg"
+    ],
+    "price": 344,
+    "size": 43,
+    "capacity": {
+      "adults": 2,
+      "children": 4
+    },
+    "bed": "King bed (2x2m)",
+    "view": "Pool view",
+    "description": "If you are thinking of taking a family holiday in Crimea, choose the family room. You’ll have all the room you’ll need! There’s a spacious bedroom and two comfortable sofa beds for your children.",
+    "facilities": [
+      "Extra bed: two sofa beds",
+      "Balcony",
+      "Free Wi-Fi",
+      "Smart TV 43",
+      "Minibar",
+      "Bathrobe and slippers",
+      "Pillow menu",
+      "Safe",
+      "Telephone",
+      "Coffee and Tea Kit",
+      "Hair dryer"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "SEA-VIEW JUNIOR SUITE WITH PRIVATE POOL",
+    "imageURL": "https://apiimg.iberostar.com/uploads/image/75431/crops/16:9/1920/image.jpeg",
+    "gallery": [
+      "https://apiimg.iberostar.com/uploads/image/75399/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/75437/crops/16:9/1920/image.jpeg",
+      "https://apiimg.iberostar.com/uploads/image/75429/crops/16:9/1920/image.jpeg"
+    ],
+    "price": 394,
+    "size": 40,
+    "capacity": {
+      "adults": 2,
+      "children": 0
+    },
+    "bed": "King bed (2x2m)",
+    "view": "Sea view",
+    "description": "Enjoy a suite with a private pool on your terrace and the best sea views. You’ll also have access to the hotel’s most exclusive areas and personalized services: that’s why you should choose this room for your sustainable holiday.",
+    "facilities": [
+      "Adults-Only",
+      "Terrace",
+      "Free Wi-Fi",
+      "Smart TV 43",
+      "Minibar",
+      "Bathrobe and slippers",
+      "Pillow menu",
+      "Safe",
+      "Telephone",
+      "Coffee and Tea Kit",
+      "Hair dryer",
+      "Dressing room"
+    ]
+  }
+]
