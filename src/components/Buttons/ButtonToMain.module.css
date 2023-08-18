@@ -1,0 +1,112 @@
+:root {
+  --width: 3px;
+  --padding: 12px;
+  --time: 200ms;
+  --time2: 400ms;
+  --time3: 600ms;
+  --color: var(--yellow-color-50);
+
+  @media screen and (min-width: 768px) {
+    --width: 5px;
+    --padding: 20px;
+  }
+}
+
+.toMain {
+  position: relative;
+  display: inline-block;
+
+  color: var(--blue-color);
+  border-bottom: var(--width) solid var(--color);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 100%;
+  overflow: hidden;
+  transition: color var(--time3) ease-in-out,
+    background-color var(--time3) ease-in-out;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 65px;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    height: 100%;
+    width: var(--width);
+
+    background: var(--color);
+    transform: translateY(100%);
+    transition: transform var(--time) ease-in-out;
+    transition-delay: var(--time3);
+  }
+
+  > span {
+    position: relative;
+
+    display: block;
+    padding: var(--padding);
+
+    color: inherit;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+
+      background: var(--color);
+      transition: transform var(--time) ease-in-out;
+    }
+
+    &:before {
+      height: var(--width);
+      width: 100%;
+
+      transform: translateX(100%);
+      transition-delay: var(--time2);
+    }
+
+    &:after {
+      height: 100%;
+      width: var(--width);
+
+      transform: translateY(-100%);
+      transition-delay: var(--time);
+    }
+  }
+
+  &:hover:after,
+  &:hover > span:before,
+  &:hover > span:after {
+    transform: translate(0, 0);
+  }
+
+  &:hover:after {
+    transition-delay: 0s;
+  }
+
+  &:hover > span:before {
+    transition-delay: var(--time);
+  }
+
+  &:hover > span:after {
+    transition-delay: var(--time2);
+  }
+
+  &:hover {
+    color: var(--white-color);
+    background-color: var(--yellow-color);
+    transition-delay: var(--time3);
+  }
+}

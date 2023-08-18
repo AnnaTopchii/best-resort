@@ -10,7 +10,7 @@
   --input-text-color: #888888;
   --backDrop: rgba(97, 97, 97, 0.6);
 
-  --shadow: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25));
+  --shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
   --animation: cubic-bezier(0.19, 1, 0.22, 1);
 }
 

@@ -1,22 +1,21 @@
+@import "normalize";
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Georama", sans-serif;
   color: var(--black-color);
   font-size: 16px;
   line-height: 1.2;
 
   @media screen and (min-width: 768px) {
-    font-size: 18px;
+    font-size: 24px;
   }
 
-  @media screen and (min-width: 1200px) {
-    font-size: 20px;
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
   }
 }
 
@@ -44,8 +43,46 @@ ul {
   list-style: none;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  padding: 32px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+
+  @media screen and (min-width: 768px) {
+    padding: 50px 40px;
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 50px 80px;
+    width: 1440px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+  }
+}
+
+/* .socials__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    @extend %flex-centered;
+
+    transition: background-color 250ms $animation-timing-function;
+
+    &:hover, &:focus {
+        background-color: $accent-color;
+    }
+} */
