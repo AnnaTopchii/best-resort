@@ -1,0 +1,136 @@
+@import "../../styles/variables.module.css";
+
+.dark {
+  display: flex;
+  cursor: pointer;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 3px solid transparent;
+  background: var(--blue-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--white-color);
+  transition: background 800ms var(--animation), border 800ms var(--animation),
+    color 800ms var(--animation), box-shadow 800ms var(--animation);
+
+  &:hover,
+  &:focus {
+    border: 3px solid var(--blue-color);
+    background: var(--white-color);
+    color: var(--blue-color);
+    box-shadow: var(--shadow);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+    padding: 10px 24px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 30px;
+  }
+}
+
+.light {
+  display: flex;
+  cursor: pointer;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 3px solid var(--blue-color);
+  background: var(--white-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--blue-color);
+  transition: background 800ms var(--animation), border 800ms var(--animation),
+    color 800ms var(--animation), box-shadow 800ms var(--animation);
+
+  &:hover,
+  &:focus {
+    border: 3px solid transparent;
+    background: var(--blue-color);
+    color: var(--white-color);
+    box-shadow: var(--shadow);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    padding: 10px 36px;
+  }
+}
+
+.send {
+  display: flex;
+  cursor: pointer;
+  padding: 8px 36px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 3px solid var(--white-color);
+  background: var(--blue-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--white-color);
+  transition: background 800ms var(--animation), border 800ms var(--animation),
+    color 800ms var(--animation), box-shadow 800ms var(--animation);
+
+  &:hover,
+  &:focus {
+    border: 3px solid var(--blue-color);
+    background: var(--white-color);
+    color: var(--blue-color);
+    box-shadow: var(--shadow);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 10px 50px;
+  }
+}
+
+.round {
+  display: flex;
+  cursor: pointer;
+  padding: 12px 5px;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+  background: var(--blue-color);
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--white-color);
+  transition: transform 800ms var(--animation),
+    box-shadow 800ms var(--animation);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    box-shadow: var(--shadow);
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
