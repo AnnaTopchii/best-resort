@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbest_resort=self.webpackChunkbest_resort||[]).push([[246],{246:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var s=n(523),r=n(184);function c(){return(0,r.jsx)("div",{className:s.Z.container,children:(0,r.jsx)("h1",{className:s.Z.title,children:"Contacts Page"})})}},523:function(e,t){t.Z={}}}]);
+//# sourceMappingURL=246.f083f235.chunk.js.map
