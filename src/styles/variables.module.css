@@ -12,6 +12,7 @@
   --backDrop: rgba(97, 97, 97, 0.6);
 
   --shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+  --modals-shadow: 3px 8px 14px 0px #88c6fd30;
   --animation: cubic-bezier(0.19, 1, 0.22, 1);
 }
 

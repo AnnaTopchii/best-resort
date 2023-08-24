@@ -14,13 +14,6 @@
   font-weight: 400;
   font-family: inherit;
   color: var(--white-color);
-
-  @media screen and (min-width: 1440px) {
-    height: 50px;
-    width: 180px;
-    font-size: 22px;
-    padding: 0 10px 0 0;
-  }
 }
 
 .hasTransition {
@@ -34,11 +27,6 @@
   background: var(--blue-color);
 
   transition: transform 1000ms var(--animation);
-
-  @media screen and (min-width: 1440px) {
-    height: 50px;
-    width: 140px;
-  }
 }
 
 .btn {
@@ -51,11 +39,6 @@
   border-radius: 40px;
   border: none;
   background: var(--blue-color);
-
-  @media screen and (min-width: 1440px) {
-    height: 50px;
-    width: 140px;
-  }
 }
 
 .icon {
@@ -66,10 +49,6 @@
 
 .btnContainer:hover .hasTransition {
   transform: translateX(31px);
-
-  @media screen and (min-width: 1440px) {
-    transform: translateX(36px);
-  }
 }
 
 .btnContainer:hover .icon {

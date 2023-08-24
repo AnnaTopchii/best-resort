@@ -20,8 +20,8 @@
   transition: background-color 1000ms var(--animation);
 
   @media screen and (min-width: 1440px) {
-    width: 70px;
-    height: 70px;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -43,8 +43,8 @@
   transition: color 1000ms var(--animation);
 
   @media screen and (min-width: 1440px) {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
 }
 

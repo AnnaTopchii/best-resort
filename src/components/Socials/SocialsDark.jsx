@@ -1,4 +1,7 @@
-import { SiInstagram, SiFacebook, SiTelegram, SiGithub } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
+import { GrFacebookOption } from "react-icons/gr";
+import { BiLogoTelegram } from "react-icons/bi";
+import { TbBrandGithubFilled } from "react-icons/tb";
 import css from "./Socials.module.css";
 
 export default function SocialsDark() {
@@ -11,7 +14,7 @@ export default function SocialsDark() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SiFacebook className={css.social_icon_dark} />
+          <GrFacebookOption className={css.social_icon_dark} />
         </a>
       </li>
       <li>
@@ -31,7 +34,7 @@ export default function SocialsDark() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SiTelegram className={css.social_icon_dark} />
+          <BiLogoTelegram className={css.social_icon_dark} />
         </a>
       </li>
       <li>
@@ -41,7 +44,7 @@ export default function SocialsDark() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SiGithub className={css.social_icon_dark} />
+          <TbBrandGithubFilled className={css.social_icon_dark} />
         </a>
       </li>
     </ul>

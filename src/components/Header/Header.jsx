@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
-import { FiMenu } from "react-icons/fi";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 import css from "./Header.module.css";
 import ButtonBookNow from "../Buttons/ButtonBookNow";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import ModalBookNow from "../ModalBookNow/ModalBookNow";
+import Logo from "../Logo/Logo";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,10 +42,8 @@ export default function Header() {
   return (
     <div className={css.container}>
       <div className={css.logo_container}>
-        <FiMenu className={css.icon} onClick={handleMenuClick} />
-        <NavLink to="/">
-          <h1 className={css.logo}>Best resort</h1>
-        </NavLink>
+        <RxHamburgerMenu className={css.icon} onClick={handleMenuClick} />
+        <Logo />
       </div>
       <div className={css.btn_container}>
         <ButtonBookNow onClick={toggleModal} />

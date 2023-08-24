@@ -36,43 +36,27 @@
 }
 
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   color: var(--blue-color);
   cursor: pointer;
 
   transition: transform 1000ms var(--animation);
 
   @media screen and (min-width: 768px) {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
 
-  @media screen and (min-width: 1440px) {
+  /* @media screen and (min-width: 1440px) {
     width: 80px;
     height: 80px;
-  }
+  } */
 }
 
 .icon:hover,
 .icon:focus {
   transform: scale(1.1);
-}
-
-.logo {
-  color: var(--blue-color);
-  font-family: Love Light;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 100%;
-
-  @media screen and (min-width: 768px) {
-    font-size: 60px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    font-size: 80px;
-  }
 }
 
 .btn_container {

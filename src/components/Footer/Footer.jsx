@@ -23,10 +23,10 @@ export default function Footer() {
               </a>
             </li>
           </ul>
+          <p className={css.text}>© Best resort | all rights reserved</p>
         </address>
         <SocialsLight />
       </div>
-      <p className={css.text}>© Best resort 2023 | all rights reserved</p>
     </div>
   );
 }
