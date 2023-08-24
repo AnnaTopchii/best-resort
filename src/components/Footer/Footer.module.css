@@ -1,0 +1,68 @@
+.background {
+  background-image: url(../../images/footer-mob.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white-color);
+  padding: 10px 20px;
+  height: 112px;
+  min-width: 320px;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(../../images/footer-tab.jpg);
+    padding: 20px 40px;
+    height: 160px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    background-image: url(../../images/footer-note-desk.jpg);
+    padding: 40px 80px;
+    height: 300px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address_list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 22px;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 100%;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    gap: 10px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    margin-top: 17px;
+    gap: 28px;
+  }
+}
+
+.text {
+  font-size: 12px;
+  font-style: normal;
+  margin-top: 20px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 68px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}

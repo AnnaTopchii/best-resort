@@ -1,14 +1,13 @@
 import { React, useEffect } from "react";
-import { NavLink } from "react-router-dom";
 import { createPortal } from "react-dom";
 import { RxCross1 } from "react-icons/rx";
-import ButtonToMain from "../Buttons/";
 
-import css from "./ModalThankYou.module.css";
+import css from "./ModalBookNow.module.css";
+import ButtonSimpleDark from "../Buttons/ButtonSimpleDark";
 
 const modalRoot = document.querySelector("#modal-root");
 
-const ModalThankYou = ({ onClose }) => {
+const ModalBookNow = ({ onClose }) => {
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.code === "Escape") {
@@ -38,11 +37,9 @@ const ModalThankYou = ({ onClose }) => {
           onClick={onClose}
         />
         <div>
-          <h2 className={css.title}>Thank you Modal</h2>
-
-          <NavLink to="/" className={css.button}>
-            <ButtonToMain />
-          </NavLink>
+          <h2 className={css.title}>Book Now Modal</h2>
+          <p>Тут буде форма</p>
+          <ButtonSimpleDark>send booking</ButtonSimpleDark>
         </div>
       </div>
     </div>,
@@ -50,4 +47,4 @@ const ModalThankYou = ({ onClose }) => {
   );
 };
 
-export default ModalThankYou;
+export default ModalBookNow;
