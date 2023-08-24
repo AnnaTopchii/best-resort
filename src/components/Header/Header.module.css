@@ -39,6 +39,9 @@
   width: 40px;
   height: 40px;
   color: var(--blue-color);
+  cursor: pointer;
+
+  transition: transform 1000ms var(--animation);
 
   @media screen and (min-width: 768px) {
     width: 60px;
@@ -49,6 +52,11 @@
     width: 80px;
     height: 80px;
   }
+}
+
+.icon:hover,
+.icon:focus {
+  transform: scale(1.1);
 }
 
 .logo {
