@@ -8,6 +8,7 @@
   font-size: 30px;
   font-weight: 300;
   line-height: 100%;
+  align-self: center;
 
   @media screen and (min-width: 768px) {
     font-size: 50px;
@@ -25,7 +26,6 @@
 .subtitle {
   display: inline-block;
   padding: 0 0 16px 0;
-  margin-bottom: 16px;
   border-bottom: 3px solid var(--yellow-color-50);
   font-size: 24px;
   font-weight: 400;
@@ -33,13 +33,11 @@
   @media screen and (min-width: 768px) {
     font-size: 36px;
     padding: 0 0 24px 0;
-    margin-bottom: 24px;
     border-bottom: 5px solid var(--yellow-color-50);
   }
 
   @media screen and (min-width: 1440px) {
     font-size: 50px;
     padding: 0 0 40px 0;
-    margin-bottom: 40px;
   }
 }
