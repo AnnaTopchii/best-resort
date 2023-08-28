@@ -1,0 +1,101 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 0;
+  }
+
+  @media screen and (min-width: 1920px) {
+    align-items: center;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    gap: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 0;
+    width: 738px;
+    height: 380px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 948px;
+    height: 480px;
+  }
+}
+
+.textContainerLast {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    gap: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 0;
+    width: 738px;
+    height: 300px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 948px;
+    height: 400px;
+  }
+}
+
+.subtitleContainer {
+  display: flex;
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    justify-content: center;
+  }
+}
+
+.text {
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 30px;
+  }
+}
+
+.time {
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+  }
+}

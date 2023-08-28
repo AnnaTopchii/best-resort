@@ -1,0 +1,101 @@
+.img_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media screen and (min-width: 768px) {
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 80px;
+  }
+}
+
+.img_1 {
+  width: 320px;
+  height: 175px;
+  border-radius: 100px 0px 0px 0px;
+
+  @media screen and (min-width: 768px) {
+    width: 688px;
+    height: 377px;
+    border-radius: 150px 0px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 522px;
+    height: 300px;
+    border-radius: 200px 0px 0px 0px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 722px;
+    height: 400px;
+    border-radius: 200px 0px 0px 0px;
+  }
+}
+
+.img_2 {
+  width: 320px;
+  height: 175px;
+
+  @media screen and (min-width: 768px) {
+    width: 688px;
+    height: 377px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 522px;
+    height: 300px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 722px;
+    height: 400px;
+  }
+}
+
+.img_3 {
+  width: 320px;
+  height: 175px;
+  border-radius: 0px 100px 0px 0px;
+
+  @media screen and (min-width: 768px) {
+    width: 688px;
+    height: 377px;
+    border-radius: 0px 150px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 522px;
+    height: 300px;
+    border-radius: 0;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 722px;
+    height: 400px;
+  }
+}
+
+.img_4 {
+  width: 320px;
+  height: 175px;
+
+  @media screen and (min-width: 768px) {
+    width: 688px;
+    height: 377px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 522px;
+    height: 300px;
+    border-radius: 0px 0px 200px 0px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 722px;
+    height: 400px;
+  }
+}
