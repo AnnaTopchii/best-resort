@@ -1,0 +1,65 @@
+.imgBlockContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media screen and (min-width: 768px) {
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    gap: 30px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    position: static;
+    gap: 40px;
+  }
+}
+
+.img_big {
+  width: 320px;
+  height: 320px;
+  border-radius: 0px 100px 0px 0px;
+
+  @media screen and (min-width: 768px) {
+    width: 688px;
+    height: 688px;
+    border-radius: 0px 150px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 630px;
+    height: 630px;
+    border-radius: 200px 0px 0px 0px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 874px;
+    height: 874px;
+    border-radius: 0px 200px 0px 0px;
+  }
+}
+
+.img_small {
+  width: 320px;
+  height: 152px;
+
+  @media screen and (min-width: 768px) {
+    width: 688px;
+    height: 328px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 630px;
+    height: 300px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 874px;
+    height: 417px;
+  }
+}
