@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 0;
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    gap: 90px;
+  }
+}

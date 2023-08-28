@@ -1,6 +1,5 @@
 .container {
-
-  padding: 90px 20px 20px;
+  padding: 90px 20px 32px;
   margin-left: auto;
   margin-right: auto;
   min-width: 320px;
@@ -12,14 +11,36 @@
   }
 
   @media screen and (min-width: 768px) {
-
-    padding: 142px 40px 40px;
+    padding: 142px 40px 80px;
     width: 768px;
   }
 
   @media screen and (min-width: 1440px) {
+    padding: 162px 80px 80px;
+    width: 1440px;
+  }
 
-    padding: 162px 80px 40px;
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+  }
+}
+
+.notFoundContainer {
+  padding: 100px 20px 120px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    padding: 200px 40px;
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 150px 80px;
     width: 1440px;
   }
 
