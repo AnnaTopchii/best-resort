@@ -1,0 +1,86 @@
+.imgBlockContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  @media screen and (min-width: 768px) {
+    gap: 16px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 20px;
+  }
+}
+
+.img_big1 {
+  width: 155px;
+  height: 155px;
+  border-radius: 0px 100px 0px 0px;
+
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    height: 336px;
+    border-radius: 0px 150px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 540px;
+    height: 540px;
+    border-radius: 0px 200px 0px 0px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 425px;
+    height: 425px;
+  }
+}
+
+.img_big2 {
+  width: 155px;
+  height: 155px;
+  border-radius: 0px 0px 0px 100px;
+
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    height: 336px;
+    border-radius: 0px 0px 0px 150px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 540px;
+    height: 540px;
+    border-radius: 0px 0px 0px 200px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 425px;
+    height: 425px;
+  }
+}
+
+.smallImgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img_small {
+  width: 155px;
+  height: 72px;
+
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    height: 160px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 540px;
+    height: 260px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 425px;
+    height: 202px;
+  }
+}

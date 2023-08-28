@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 80px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    gap: 180px;
+  }
+}
+
+.restSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 80px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    flex-direction: row;
+    align-items: center;
+    gap: 88px;
+  }
+}
+
+.barSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 40px;
+    padding-bottom: 80px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    flex-direction: row-reverse;
+    gap: 88px;
+    padding-bottom: 0;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 80px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    align-items: center;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    gap: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 40px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 800px;
+  }
+}
+
+.textContainerSmall {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    gap: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 600px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 800px;
+  }
+}
+
+.subtitleContainer {
+  display: flex;
+
+  @media screen and (min-width: 1920px) {
+    justify-content: center;
+  }
+}
+
+.text {
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+  }
+}
+
+.time {
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 30px;
+    text-align: center;
+  }
+}

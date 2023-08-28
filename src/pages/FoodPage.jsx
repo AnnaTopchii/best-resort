@@ -1,9 +1,12 @@
-import css from "../styles/MainPage.module.css";
+import css from "../styles/general.module.css";
+import Title from "../components/Title/Title";
+import Food from "../components/Food/Food";
 
 export default function FoodPage() {
   return (
     <div className={css.container}>
-      <h1 className={css.title}>Food Page</h1>
+      <Title>Restaurants & bars</Title>
+      <Food />
     </div>
   );
 }
