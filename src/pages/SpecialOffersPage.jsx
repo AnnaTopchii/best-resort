@@ -5,7 +5,7 @@ import SpecialOffers from "../components/SpecialOffers/SpecialOffers";
 export default function SpecialOffersPage() {
   return (
     <div className={css.container}>
-      <Title>Special Offers Page</Title>
+      <Title>Special offers</Title>
       <SpecialOffers />
     </div>
   );
