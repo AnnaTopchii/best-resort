@@ -57,24 +57,3 @@ img {
 body.lock-scroll {
   overflow: hidden;
 }
-
-.container {
-  padding: 32px 20px;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 320px;
-
-  @media screen and (min-width: 768px) {
-    padding: 50px 40px;
-    width: 768px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    padding: 50px 80px;
-    width: 1440px;
-  }
-
-  @media screen and (min-width: 1920px) {
-    width: 1920px;
-  }
-}

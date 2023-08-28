@@ -1,9 +1,12 @@
-import css from "../styles/MainPage.module.css";
+import css from "../styles/general.module.css";
+import Title from "../components/Title/Title";
+import SpecialOffers from "../components/SpecialOffers/SpecialOffers";
 
 export default function SpecialOffersPage() {
   return (
     <div className={css.container}>
-      <h1 className={css.title}>Special Offers Page</h1>
+      <Title>Special offers</Title>
+      <SpecialOffers />
     </div>
   );
 }
