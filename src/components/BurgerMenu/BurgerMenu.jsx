@@ -1,4 +1,4 @@
-import { React, useEffect } from "react";
+import { React, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { createPortal } from "react-dom";
 import { RxCross1 } from "react-icons/rx";
@@ -8,10 +8,13 @@ import Logo from "../Logo/Logo";
 import ButtonBookNow from "../Buttons/ButtonBookNow";
 import SocialsDark from "../Socials/SocialsDark";
 import ButtonSimpleDark from "../Buttons/ButtonSimpleDark";
+import ModalBookNow from "../ModalBookNow/ModalBookNow";
 
 const modalRoot = document.querySelector("#modal-root");
 
 const BurgerMenu = ({ onItemClick }) => {
+  const [modalOpen, setModalOpen] = useState(false);
+
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.code === "Escape") {
@@ -25,6 +28,10 @@ const BurgerMenu = ({ onItemClick }) => {
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [onItemClick]);
+
+  const toggleModal = () => {
+    setModalOpen(!modalOpen);
+  };
 
   const handleBackdropClick = (event) => {
     if (event.currentTarget === event.target) {
@@ -43,7 +50,7 @@ const BurgerMenu = ({ onItemClick }) => {
           />
           <Logo />
           <div className={css.animated_button}>
-            <ButtonBookNow />
+            <ButtonBookNow onClick={toggleModal} />
           </div>
         </div>
 
@@ -94,13 +101,14 @@ const BurgerMenu = ({ onItemClick }) => {
         </ul>
 
         <div className={css.button_container}>
-          <ButtonSimpleDark>book now</ButtonSimpleDark>
+          <ButtonSimpleDark onClick={toggleModal}>book now</ButtonSimpleDark>
         </div>
 
         <div className={css.modal_footer}>
           <SocialsDark />
         </div>
       </div>
+      {modalOpen && <ModalBookNow onClose={toggleModal} />}
     </div>,
     modalRoot
   );

@@ -1,4 +1,4 @@
-.contentContainer {
+.content_container {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -16,7 +16,7 @@
   }
 }
 
-.textContainer {
+.text_container {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -37,7 +37,7 @@
   }
 }
 
-.textContainerLast {
+.text_container_last {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -58,7 +58,7 @@
   }
 }
 
-.subtitleContainer {
+.subtitle_container {
   display: flex;
 
   @media screen and (min-width: 1440px) {

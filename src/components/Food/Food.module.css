@@ -16,7 +16,7 @@
   }
 }
 
-.restSection {
+.rest_section {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -36,7 +36,7 @@
   }
 }
 
-.barSection {
+.bar_section {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@
   }
 }
 
-.contentContainer {
+.content_container {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -76,7 +76,7 @@
   }
 }
 
-.textContainer {
+.text_container {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -94,7 +94,7 @@
   }
 }
 
-.textContainerSmall {
+.text_container_small {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -112,7 +112,7 @@
   }
 }
 
-.subtitleContainer {
+.subtitle_container {
   display: flex;
 
   @media screen and (min-width: 1920px) {

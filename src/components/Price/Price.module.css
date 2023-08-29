@@ -1,0 +1,42 @@
+.price_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.price_from {
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 1.2px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+  }
+}
+
+.rate_rules {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 100%;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 22px;
+  }
+}
+
+.price {
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 2px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 70px;
+    letter-spacing: 3px;
+  }
+}

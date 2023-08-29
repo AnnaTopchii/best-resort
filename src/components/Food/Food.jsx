@@ -7,11 +7,11 @@ import BarImg from "./BarImg";
 export default function Food() {
   return (
     <div className={css.container}>
-      <div className={css.restSection}>
+      <div className={css.rest_section}>
         <RestText />
         <RestImg />
       </div>
-      <div className={css.barSection}>
+      <div className={css.bar_section}>
         <BarText />
         <BarImg />
       </div>

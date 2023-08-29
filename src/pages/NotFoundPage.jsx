@@ -5,7 +5,7 @@ import css from "../styles/general.module.css";
 
 export default function PageNotFound() {
   return (
-    <div className={css.notFoundContainer}>
+    <div className={css.not_found_container}>
       <NotFound />
       <ButtonToMain />
     </div>

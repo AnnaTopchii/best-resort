@@ -83,7 +83,7 @@
   }
 }
 
-.contentContainer {
+.content_container {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -98,7 +98,7 @@
   }
 }
 
-.textContainer {
+.text_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,7 +113,7 @@
   }
 }
 
-.subtitleContainer {
+.subtitle_container {
   display: flex;
   justify-content: center;
 
@@ -134,7 +134,7 @@
   }
 }
 
-.buttonContainer {
+.button_container {
   display: flex;
   justify-content: center;
 

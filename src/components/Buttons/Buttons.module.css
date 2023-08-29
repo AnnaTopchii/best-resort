@@ -11,6 +11,7 @@
   background: var(--blue-color);
   font-size: 16px;
   font-weight: 400;
+  line-height: 100%;
   font-family: inherit;
   color: var(--white-color);
   transition: background 800ms var(--animation), border 800ms var(--animation),

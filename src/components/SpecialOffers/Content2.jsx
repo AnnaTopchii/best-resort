@@ -13,9 +13,9 @@ export default function Content2() {
   };
 
   return (
-    <div className={css.contentContainer}>
-      <div className={css.textContainer}>
-        <div className={css.subtitleContainer}>
+    <div className={css.content_container}>
+      <div className={css.text_container}>
+        <div className={css.subtitle_container}>
           <Subtitle>This summer, here, together</Subtitle>
         </div>
         <p className={css.text}>
@@ -25,7 +25,7 @@ export default function Content2() {
           Book at least 7 nights and get 1 night for free.
         </p>
       </div>
-      <div className={css.buttonContainer}>
+      <div className={css.button_container}>
         <ButtonSimpleLight onClick={toggleModal} />
       </div>
       {modalOpen && <ModalBookNow onClose={toggleModal} />}

@@ -1,0 +1,104 @@
+.rooms_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 38px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1440px) {
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    gap: 62px;
+  }
+}
+
+.card {
+  box-shadow: var(--shadow);
+  border: 2px solid var(--blue-color-50);
+  width: 320px;
+
+  @media screen and (min-width: 768px) {
+    border: 3px solid var(--blue-color-50);
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 408px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 540px;
+  }
+}
+
+.image {
+  height: 200px;
+
+  @media screen and (min-width: 1440px) {
+    height: 270px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.card_content {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 20px 20px 24px;
+  height: calc(100% - 200px);
+
+  @media screen and (min-width: 1440px) {
+    padding: 30px 20px 36px;
+    height: calc(100% - 270px);
+  }
+
+  @media screen and (min-width: 1920px) {
+    padding: 30px 30px 36px;
+    height: calc(100% - 300px);
+  }
+}
+
+.room_type {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+  }
+}
+
+.capacity_container {
+  margin-bottom: 20px;
+  margin-top: auto;
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 60px;
+  }
+}
+
+.price_container {
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 35px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 40px;
+  }
+}
+
+.button {
+  margin: 0 auto;
+}

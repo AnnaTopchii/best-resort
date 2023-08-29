@@ -1,9 +1,12 @@
-import css from "../styles/MainPage.module.css";
+import css from "../styles/general.module.css";
+import Title from "../components/Title/Title";
+import Accommodation from "../components/Accommodation/Accommodation";
 
 export default function AccommodationPage() {
   return (
     <div className={css.container}>
-      <h1 className={css.title}>Accommodation Page</h1>
+      <Title>Accommodation</Title>
+      <Accommodation />
     </div>
   );
 }

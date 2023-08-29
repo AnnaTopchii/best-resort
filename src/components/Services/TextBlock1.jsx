@@ -3,9 +3,9 @@ import Subtitle from "../Title/Subtitle";
 
 export default function TextBlock1() {
   return (
-    <div className={css.contentContainer}>
-      <div className={css.textContainer}>
-        <div className={css.subtitleContainer}>
+    <div className={css.content_container}>
+      <div className={css.text_container}>
+        <div className={css.subtitle_container}>
           <Subtitle>Massages and beauty treatments</Subtitle>
         </div>
         <p className={css.text}>
@@ -19,8 +19,8 @@ export default function TextBlock1() {
         <p className={css.time}>10:00–19:00</p>
       </div>
 
-      <div className={css.textContainer}>
-        <div className={css.subtitleContainer}>
+      <div className={css.text_container}>
+        <div className={css.subtitle_container}>
           <Subtitle>Pools</Subtitle>
         </div>
         <p className={css.text}>

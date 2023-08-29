@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.carousel {
+  background: var(--blue-color);
+
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
+}
+
+.carousel_cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel_cell img {
+  display: block;
+  height: 180px;
+
+  @media screen and (min-width: 768px) {
+    height: 387px;
+  }
+}

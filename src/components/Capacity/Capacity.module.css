@@ -1,0 +1,48 @@
+.capacity_container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 100%;
+}
+
+.capacity_adults,
+.capacity_kids {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 6px;
+
+  @media screen and (min-width: 1440px) {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.icon_kid {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+
+  @media screen and (min-width: 1440px) {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.capacity,
+.size {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+  }
+}
+
+.capacity {
+  gap: 12px;
+}
