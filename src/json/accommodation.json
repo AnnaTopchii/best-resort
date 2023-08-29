@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "type": "PREMIUM TERRACE POOL-VIEW DOUBLE",
     "imageURL": "https://apiimg.iberostar.com/uploads/image/69789/crops/16:9/1920/image.jpeg",
     "gallery": [
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "2",
     "type": "POOL-VIEW JUNIOR SUITE",
     "imageURL": "https://apiimg.iberostar.com/uploads/image/60624/crops/16:9/1920/image.jpeg",
     "gallery": [
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": "3",
     "type": "SEA VIEW DOUBLE",
     "imageURL": "https://apiimg.iberostar.com/uploads/image/18247/crops/16:9/1920/image.jpeg",
     "gallery": [
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": "4",
     "type": "PREMIUM TERRACE JUNIOR SUITE POOL VIEW",
     "imageURL": "https://apiimg.iberostar.com/uploads/image/69797/crops/16:9/1920/image.jpeg",
     "gallery": [
@@ -127,7 +127,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": "5",
     "type": "POOL-VIEW FAMILY ROOM",
     "imageURL": "https://apiimg.iberostar.com/uploads/image/18228/crops/16:9/1920/image.jpeg",
     "gallery": [
@@ -159,7 +159,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": "6",
     "type": "SEA-VIEW JUNIOR SUITE WITH PRIVATE POOL",
     "imageURL": "https://apiimg.iberostar.com/uploads/image/75431/crops/16:9/1920/image.jpeg",
     "gallery": [

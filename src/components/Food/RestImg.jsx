@@ -9,42 +9,44 @@ import food4 from "../../images/food-4.jpg";
 
 export default function RestImg() {
   return (
-    <div className={css.imgBlockContainer}>
-      <div className={css.smallImgContainer}>
+    <div className={css.img_block_container}>
+      <div className={css.small_img_container}>
         <img
           className={css.img_small}
           src={food1}
-          alt={"the girl rests in a hammock"}
+          alt={"desserts served by the waiter on a tray"}
         />
         <img
           className={css.img_small}
           src={food2}
-          alt={"the girl rests in a hammock"}
+          alt={"table with breakfast and glasses of juice and cups of coffee"}
         />
       </div>
 
       <img
         className={css.img_big1}
         src={foodBig1}
-        alt={"the girl rests in a hammock"}
+        alt={
+          "the table is set for dinner. on the table are glasses with water and wine and plates with dishes"
+        }
       />
 
       <img
         className={css.img_big2}
         src={foodBig2}
-        alt={"the girl rests in a hammock"}
+        alt={"a woman in a blue dress is having dinner"}
       />
 
       <div className={css.smallImgContainer}>
         <img
           className={css.img_small}
           src={food3}
-          alt={"the girl rests in a hammock"}
+          alt={"the bartender pours pink champagne into a glass"}
         />
         <img
           className={css.img_small}
           src={food4}
-          alt={"the girl rests in a hammock"}
+          alt={"Greek salad in a ceramic bowl"}
         />
       </div>
     </div>

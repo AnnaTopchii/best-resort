@@ -3,9 +3,9 @@ import Subtitle from "../Title/Subtitle";
 
 export default function RestText() {
   return (
-    <div className={css.contentContainer}>
-      <div className={css.textContainer}>
-        <div className={css.subtitleContainer}>
+    <div className={css.content_container}>
+      <div className={css.text_container}>
+        <div className={css.subtitle_container}>
           <Subtitle>Lounge Bar</Subtitle>
         </div>
         <p className={css.text}>
@@ -17,8 +17,8 @@ export default function RestText() {
         <p className={css.time}>9:00–00:00</p>
       </div>
 
-      <div className={css.textContainerSmall}>
-        <div className={css.subtitleContainer}>
+      <div className={css.text_container_small}>
+        <div className={css.subtitle_container}>
           <Subtitle>Pool Bar</Subtitle>
         </div>
         <p className={css.text}>
@@ -29,8 +29,8 @@ export default function RestText() {
         <p className={css.time}>10:00–18:00</p>
       </div>
 
-      <div className={css.textContainerSmall}>
-        <div className={css.subtitleContainer}>
+      <div className={css.text_container_small}>
+        <div className={css.subtitle_container}>
           <Subtitle>Sunset Champagne Bar</Subtitle>
         </div>
         <p className={css.text}>

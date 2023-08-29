@@ -1,4 +1,4 @@
-.btnContainer {
+.btn_container {
   position: relative;
   display: flex;
   cursor: pointer;
@@ -16,7 +16,7 @@
   color: var(--white-color);
 }
 
-.hasTransition {
+.has_transition {
   position: absolute;
   z-index: -1;
   left: 0;
@@ -47,11 +47,11 @@
   transition: color 1500ms var(--animation), transform 1500ms var(--animation);
 }
 
-.btnContainer:hover .hasTransition {
+.btn_container:hover .has_transition {
   transform: translateX(31px);
 }
 
-.btnContainer:hover .icon {
+.btn_container:hover .icon {
   color: var(--white-color);
   transform: rotate(-45deg);
 }

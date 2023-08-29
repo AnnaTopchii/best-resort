@@ -1,0 +1,35 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(97, 97, 97, 0.6);
+  z-index: 100;
+}
+
+.modal_window {
+  width: 500px;
+  margin: 100px 20px auto;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 12px;
+  box-shadow: 3px 8px 14px 0px #88c6fd30;
+
+  z-index: 999;
+}
+
+.icon {
+  margin-left: 244px;
+  font-size: 24px;
+  color: var(--blue-color);
+}
+
+.icon:hover,
+.icon:focus {
+  transform: scale(1.2);
+  color: var(--green-color);
+}

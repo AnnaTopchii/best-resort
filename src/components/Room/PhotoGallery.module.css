@@ -1,0 +1,38 @@
+.gallery {
+  @media screen and (max-width: 1439px) {
+    display: none;
+  }
+
+  display: flex;
+  gap: 20px;
+
+  @media screen and (min-width: 1920px) {
+    gap: 40px;
+  }
+}
+
+.img:first-of-type {
+  border-radius: 150px 0px 0px 0px;
+
+  @media screen and (min-width: 1920px) {
+    border-radius: 200px 0px 0px 0px;
+  }
+}
+
+.img:last-of-type {
+  border-radius: 0px 0px 150px 0px;
+
+  @media screen and (min-width: 1920px) {
+    border-radius: 0px 0px 200px 0px;
+  }
+}
+
+.img {
+  width: 413px;
+  height: 230px;
+
+  @media screen and (min-width: 1920px) {
+    width: 560px;
+    height: 315px;
+  }
+}

@@ -5,7 +5,7 @@ import poolBar from "../../images/pool-bar.jpg";
 
 export default function BarImg() {
   return (
-    <div className={css.imgBlockContainer}>
+    <div className={css.img_block_container}>
       <img
         className={css.img_big}
         src={bar}

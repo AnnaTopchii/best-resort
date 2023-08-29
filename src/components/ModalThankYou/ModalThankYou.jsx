@@ -31,7 +31,7 @@ const ModalThankYou = ({ onClose }) => {
 
   return createPortal(
     <div className={css.overlay} onClick={handleBackdropClick}>
-      <div className={css.modalWindow}>
+      <div className={css.modal_window}>
         <RxCross1
           className={css.icon}
           aria-label="Close modal window"

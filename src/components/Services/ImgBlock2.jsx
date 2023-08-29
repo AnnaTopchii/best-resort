@@ -9,12 +9,12 @@ export default function ImgBlock2() {
       <img
         className={css.img_3}
         src={gym}
-        alt={"Champagne, glass and fruit with sunset view"}
+        alt={"dumbbells and kettlebells in the gym"}
       />
       <img
         className={css.img_4}
         src={bicycle}
-        alt={"Cocktails near the sun lounger"}
+        alt={"a couple in sportswear and helmets have a ride on bicycles"}
       />
     </div>
   );
