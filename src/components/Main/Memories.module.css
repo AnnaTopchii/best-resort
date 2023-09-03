@@ -1,0 +1,135 @@
+.memories {
+  position: relative;
+  display: flex;
+
+  @media screen and (min-width: 768px) {
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 180px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    gap: 310px;
+    width: 1464px;
+    margin: 0 auto;
+  }
+}
+
+.memories div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    gap: 24px;
+  }
+}
+
+.subtitle {
+  display: inline-block;
+  padding: 0 0 16px 0;
+  border-bottom: 3px solid var(--yellow-color-50);
+  font-size: 24px;
+  font-weight: 400;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+    padding: 0 0 24px 0;
+    border-bottom: 5px solid var(--yellow-color-50);
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 50px;
+    padding: 0 0 40px 0;
+  }
+}
+
+.text {
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+  }
+}
+
+.text_box {
+  padding: 10px;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-size: 12px;
+
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    left: 264px;
+    bottom: 65px;
+    font-size: 16px;
+    padding: 20px;
+    width: 300px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    left: 521px;
+    bottom: 120px;
+    font-size: 30px;
+    padding: 40px;
+    width: 554px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    left: 574px;
+    bottom: 77px;
+  }
+}
+
+.img_relax {
+  display: none;
+  margin-top: auto;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    object-fit: cover;
+    width: 265px;
+    height: 265px;
+    border-radius: 0px 0px 0px 150px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 522px;
+    height: 503px;
+    border-radius: 0px 0px 0px 200px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 575px;
+    height: 578px;
+  }
+}
+
+.img_hotel {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    object-fit: cover;
+    width: 332px;
+    height: 685px;
+    border-radius: 150px 0px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 522px;
+    height: 923px;
+    border-radius: 200px 0px 0px 0px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 573px;
+    height: 1000px;
+  }
+}

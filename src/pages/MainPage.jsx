@@ -1,28 +1,39 @@
-import css from "../styles/MainPage.module.css";
+import React, { useState, useEffect } from "react";
 
-import ButtonSimpleDark from "../components/Buttons/ButtonSimpleDark";
-import ButtonSend from "../components/Buttons/ButtonSend";
-import ButtonSimpleLight from "../components/Buttons/ButtonSimpleLight";
+import css from "../styles/general.module.css";
+import Hero from "../components/Main/Hero";
+import Memories from "../components/Main/Memories";
+import Welcome from "../components/Main/Welcome";
+import Offer from "../components/Main/Offer";
 import ButtonRound from "../components/Buttons/ButtonRound";
-import ButtonBookNow from "../components/Buttons/ButtonBookNow";
-import ButtonToMain from "../components/Buttons/ButtonToMain";
-import Title from "../components/Title/Title";
-import Subtitle from "../components/Title/Subtitle";
+import ModalBookNow from "../components/ModalBookNow/ModalBookNow";
 
 export default function MainPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setModalOpen(!modalOpen);
+  };
+
   return (
-    <div className={css.container}>
-      <h2 className={css.title}>Main Page</h2>
-      <ButtonSimpleDark>book now</ButtonSimpleDark>
-      <ButtonSimpleDark>send booking</ButtonSimpleDark>
-      <ButtonSimpleDark>see more room details</ButtonSimpleDark>
-      <ButtonSend />
-      <ButtonSimpleLight />
-      <ButtonRound />
-      <ButtonBookNow />
-      <ButtonToMain />
-      <Title>Accommodation</Title>
-      <Subtitle>Restaurants</Subtitle>
-    </div>
+    <>
+      <Hero />
+      <div className={css.main_container}>
+        <Memories />
+      </div>
+      <Welcome />
+      <div className={css.main_container}>
+        <Offer />
+      </div>
+
+      <div className={css.main_button}>
+        <ButtonRound onClick={toggleModal} />
+      </div>
+      {modalOpen && <ModalBookNow onClose={toggleModal} />}
+    </>
   );
 }
