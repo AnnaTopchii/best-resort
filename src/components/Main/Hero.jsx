@@ -38,7 +38,7 @@ export default function Hero() {
         <img
           className={css.img_hero_top}
           src={image1Src}
-          alt={"the man swims"}
+          alt={"sun beds near the pool"}
         />
       </div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
         <img
           className={css.img_hero_bottom}
           src={image2Src}
-          alt={"the man swims"}
+          alt={"vip lounge with sun beds with sea view"}
         />
         <span className={css.text_ever}>ever</span>
       </div>

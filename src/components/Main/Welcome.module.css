@@ -1,0 +1,70 @@
+.background {
+  background-image: url(../../images/hero-mob.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  height: 160px;
+  min-width: 320px;
+  display: flex;
+  align-items: flex-end;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(../../images/hero-tab.jpg);
+    padding-left: 40px;
+    height: 333px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    background-image: url(../../images/hero-note-desk.jpg);
+    padding-left: 80px;
+    height: 500px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 600px;
+  }
+}
+
+.container {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 275px;
+    height: 273px;
+    padding: 53px 20px 20px;
+    background-color: var(--white-color-90);
+    color: (--black-color);
+    border-radius: 0px 150px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 425px;
+    height: 392px;
+    padding: 55px 49px 55px 32px;
+    border-radius: 0px 200px 0px 0px;
+  }
+}
+
+.text {
+  font-size: 24px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+  }
+}
+
+.logo {
+  font-family: Love Light;
+  font-size: 50px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 70px;
+  }
+}

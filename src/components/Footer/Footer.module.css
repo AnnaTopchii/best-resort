@@ -49,6 +49,15 @@
   }
 }
 
+.address_link {
+  transition: transform 1000ms var(--animation);
+}
+
+.address_link:hover,
+.address_link:focus {
+  transform: scale(1.1);
+}
+
 .text {
   font-size: 12px;
   font-style: normal;
