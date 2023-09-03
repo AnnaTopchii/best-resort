@@ -8,7 +8,6 @@ import specialTab from "../../images/special-tab.jpg";
 
 export default function SpecialOffers() {
   const screenWidth = window.innerWidth;
-  console.log(screenWidth);
 
   let image1Src;
   let image2Src;

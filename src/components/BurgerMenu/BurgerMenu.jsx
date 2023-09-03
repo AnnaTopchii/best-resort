@@ -48,7 +48,7 @@ const BurgerMenu = ({ onItemClick }) => {
             aria-label="Close menu"
             onClick={onItemClick}
           />
-          <Logo />
+          <Logo onClick={onItemClick} />
           <div className={css.animated_button}>
             <ButtonBookNow onClick={toggleModal} />
           </div>

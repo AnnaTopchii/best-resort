@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, NavLink } from "react-router-dom";
 
 import css from "../styles/RoomPage.module.css";
@@ -11,6 +11,10 @@ import { IoChevronBackSharp } from "react-icons/io5";
 export default function RoomPage() {
   const { roomId } = useParams();
   const room = rooms.find((room) => room.id === roomId);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className={css.container}>

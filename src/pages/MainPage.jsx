@@ -1,28 +1,26 @@
-import css from "../styles/MainPage.module.css";
+import React, { useEffect } from "react";
 
-import ButtonSimpleDark from "../components/Buttons/ButtonSimpleDark";
-import ButtonSend from "../components/Buttons/ButtonSend";
-import ButtonSimpleLight from "../components/Buttons/ButtonSimpleLight";
-import ButtonRound from "../components/Buttons/ButtonRound";
-import ButtonBookNow from "../components/Buttons/ButtonBookNow";
-import ButtonToMain from "../components/Buttons/ButtonToMain";
-import Title from "../components/Title/Title";
-import Subtitle from "../components/Title/Subtitle";
+import css from "../styles/general.module.css";
+import Hero from "../components/Main/Hero";
+import Memories from "../components/Main/Memories";
+import Welcome from "../components/Main/Welcome";
+import Offer from "../components/Main/Offer";
 
 export default function MainPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className={css.container}>
-      <h2 className={css.title}>Main Page</h2>
-      <ButtonSimpleDark>book now</ButtonSimpleDark>
-      <ButtonSimpleDark>send booking</ButtonSimpleDark>
-      <ButtonSimpleDark>see more room details</ButtonSimpleDark>
-      <ButtonSend />
-      <ButtonSimpleLight />
-      <ButtonRound />
-      <ButtonBookNow />
-      <ButtonToMain />
-      <Title>Accommodation</Title>
-      <Subtitle>Restaurants</Subtitle>
-    </div>
+    <>
+      <Hero />
+      <div className={css.main_container}>
+        <Memories />
+      </div>
+      <Welcome />
+      <div className={css.main_container}>
+        <Offer />
+      </div>
+    </>
   );
 }

@@ -23,10 +23,6 @@ export default function Header() {
     setModalOpen(!modalOpen);
   };
 
-  // const closeModal = () => {
-  //   setModalOpen(false);
-  // };
-
   useEffect(() => {
     if (isMenuOpen) {
       document.body.classList.add("lock-scroll");
