@@ -64,6 +64,46 @@
   }
 }
 
+.contacts_container {
+  padding: 90px 0 32px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    padding: 122px 0 80px;
+  }
+}
+
+.contacts_inner_container {
+  padding: 32px 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 360px) {
+    width: 360px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 50px 40px 0;
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 80px 80px 0;
+    width: 1440px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+  }
+}
+
 .not_found_container {
   padding: 160px 20px 120px;
   margin-left: auto;
