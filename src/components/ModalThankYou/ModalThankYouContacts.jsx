@@ -1,5 +1,4 @@
 import { React, useEffect } from "react";
-import { NavLink } from "react-router-dom";
 import { createPortal } from "react-dom";
 import { RxCross1 } from "react-icons/rx";
 import ButtonToMain from "../Buttons/ButtonToMain";
@@ -41,7 +40,6 @@ const ModalThankYouContacts = ({ onClose }) => {
           />
           <Logo />
         </div>
-
         <div className={css.modal_content}>
           <p className={css.text}>
             Thank you!
@@ -49,9 +47,9 @@ const ModalThankYouContacts = ({ onClose }) => {
             We will contact you as soon as possible
           </p>
         </div>
-        <NavLink to="/" className={css.button}>
+        <div className={css.button}>
           <ButtonToMain />
-        </NavLink>
+        </div>
       </div>
     </div>,
     modalRoot

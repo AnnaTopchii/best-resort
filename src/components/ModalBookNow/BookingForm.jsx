@@ -1,12 +1,10 @@
-import { React, useState } from "react";
-import { Formik, Form, Field } from "formik";
+import { React } from "react";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 import css from "./ModalBookNow.module.css";
-import ButtonSendBooking from "../Buttons/ButtonSendBooking";
-import ModalThankYou from "../ModalThankYou/ModalThankYou";
 
 const initialValues = {
   name: "",
@@ -44,75 +42,120 @@ const Schema = Yup.object().shape({
     .required("Required"),
   comments: Yup.string(),
 });
-const BookingForm = () => {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [userName, setUserName] = useState(null);
-
+const BookingForm = ({ openThankYouModal }) => {
   const handleSubmit = (FormData, actions) => {
-    setUserName(FormData.name);
-    setModalOpen(!modalOpen);
+    openThankYouModal(FormData.name);
     actions.resetForm();
   };
 
-  const toggleModal = () => {
-    setModalOpen(!modalOpen);
-  };
-
   return (
-    <>
-      <Formik
-        initialValues={initialValues}
-        onSubmit={handleSubmit}
-        validationSchema={Schema}
-      >
+    <Formik
+      initialValues={initialValues}
+      onSubmit={handleSubmit}
+      validationSchema={Schema}
+    >
+      {({ isValid, dirty, isSubmitting }) => (
         <Form className={css.form}>
           <label className={css.block}>
             <span className={css.label}>Name Surname</span>
-            <Field className={css.input} type="text" name="name" />
+            <div>
+              <Field className={css.input} type="text" name="name" />
+              <ErrorMessage name="name" component="div" className={css.error} />
+            </div>
           </label>
           <label className={css.block}>
             <span className={css.label}>Email</span>
-            <Field className={css.input} type="email" name="email" />
+            <div>
+              <Field className={css.input} type="email" name="email" />
+              <ErrorMessage
+                name="email"
+                component="div"
+                className={css.error}
+              />
+            </div>
           </label>
           <label className={css.block}>
             <span className={css.label}>Telephone</span>
-            <Field className={css.input} type="tel" name="number" />
+            <div>
+              <Field className={css.input} type="tel" name="number" />
+              <ErrorMessage
+                name="number"
+                component="div"
+                className={css.error}
+              />
+            </div>
           </label>
           <div className="date-picker-container">
             <label className={css.block}>
               <span className={css.label}>Date of arrival</span>
-              <Field className={css.input} name="date">
-                {({ field, form }) => (
-                  <DatePicker
-                    className={css.input}
-                    selected={field.value}
-                    onChange={(date) => form.setFieldValue(field.name, date)}
-                    dateFormat="dd-MM-yyyy"
-                    placeholderText="Select a date"
-                    autoComplete="off"
-                  />
-                )}
-              </Field>
+              <div>
+                <Field className={css.input} name="date">
+                  {({ field, form }) => (
+                    <DatePicker
+                      className={css.input}
+                      selected={field.value}
+                      onChange={(date) => form.setFieldValue(field.name, date)}
+                      dateFormat="dd-MM-yyyy"
+                      placeholderText="Select a date"
+                      autoComplete="off"
+                    />
+                  )}
+                </Field>
+                <ErrorMessage
+                  name="date"
+                  component="div"
+                  className={css.error}
+                />
+              </div>
             </label>
           </div>
 
           <div className={css.inner_container}>
             <label className={css.block_small}>
               <span className={css.label}>Nights</span>
-              <Field className={css.input_small} type="number" name="nights" />
+              <div>
+                <Field
+                  className={css.input_small}
+                  type="number"
+                  name="nights"
+                />
+                <ErrorMessage
+                  name="nights"
+                  component="div"
+                  className={css.error}
+                />
+              </div>
             </label>
             <label className={css.block_small}>
               <span className={css.label}>Adults</span>
-              <Field className={css.input_small} type="number" name="adults" />
+              <div>
+                <Field
+                  className={css.input_small}
+                  type="number"
+                  name="adults"
+                />
+                <ErrorMessage
+                  name="adults"
+                  component="div"
+                  className={css.error}
+                />
+              </div>
             </label>
             <label className={css.block_small}>
               <span className={css.label}>Children</span>
-              <Field
-                className={css.input_small}
-                type="number"
-                name="children"
-                placeholder="2-12 yo"
-              />
+              <div>
+                <Field
+                  className={css.input_small}
+                  type="number"
+                  name="children"
+                  placeholder="2-12 yo"
+                />
+                <ErrorMessage
+                  name="children"
+                  component="div"
+                  className={css.error}
+                />
+              </div>
             </label>
           </div>
 
@@ -126,12 +169,21 @@ const BookingForm = () => {
             />
           </label>
           <div className={css.btn_container}>
-            <ButtonSendBooking />
+            <button
+              type="submit"
+              disabled={isSubmitting || !isValid || !dirty}
+              className={
+                isSubmitting || !isValid || !dirty
+                  ? css.disabled_button
+                  : css.button
+              }
+            >
+              send booking
+            </button>
           </div>
         </Form>
-      </Formik>
-      {modalOpen && <ModalThankYou onClose={toggleModal} name={userName} />}
-    </>
+      )}
+    </Formik>
   );
 };
 

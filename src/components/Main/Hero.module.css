@@ -112,6 +112,8 @@
   min-width: 320px;
   max-width: 1920px;
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
 
   @media screen and (min-width: 768px) {
     padding: 114px 40px 0px 0px;
