@@ -37,7 +37,7 @@ export default function RestImg() {
         alt={"a woman in a blue dress is having dinner"}
       />
 
-      <div className={css.smallImgContainer}>
+      <div className={css.small_img_container}>
         <img
           className={css.img_small}
           src={food3}

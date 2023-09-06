@@ -14,18 +14,15 @@ export default function Hero() {
   const screenWidth = window.innerWidth;
 
   useEffect(() => {
-    // Function to handle scroll event
     const handleScroll = () => {
       if (window.scrollY > 10) {
-        setAnimate(true); // Trigger animation when scrolled down 100px
-        window.removeEventListener("scroll", handleScroll); // Remove event listener to prevent continuous triggering
+        setAnimate(true);
+        window.removeEventListener("scroll", handleScroll); 
       }
     };
 
-    // Attach the scroll event listener
     window.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener on unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };

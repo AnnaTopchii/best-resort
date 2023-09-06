@@ -10,7 +10,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 100;
+  z-index: 200;
   background-image: linear-gradient(
       to top,
       rgba(47, 48, 58, 0.2),
@@ -39,13 +39,12 @@
 
 .modal_window {
   width: 320px;
-  /* margin: 100px auto auto; */
   border-radius: 16px;
   background-color: var(--white-color-90);
   padding: 0 10px 32px;
   box-shadow: var(--modals-shadow);
 
-  z-index: 999;
+  z-index: 201;
 
   @media screen and (min-width: 768px) {
     width: 500px;
