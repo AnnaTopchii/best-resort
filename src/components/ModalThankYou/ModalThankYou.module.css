@@ -39,7 +39,6 @@
 
 .modal_window {
   width: 320px;
-  /* margin: 100px auto auto; */
   border-radius: 16px;
   background-color: var(--white-color-90);
   padding: 0 10px 32px;
