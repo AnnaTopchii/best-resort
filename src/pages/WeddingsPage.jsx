@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 
 import css from "../styles/general.module.css";
+import Title from "../components/Title/Title";
+import Subtitle from "../components/Title/Subtitle";
 
 export default function WeddingsPage() {
   useEffect(() => {
@@ -9,7 +11,8 @@ export default function WeddingsPage() {
 
   return (
     <div className={css.container}>
-      <h1 className={css.title}>Weddings Page</h1>
+      <Title>Weddings</Title>
+      <Subtitle>Sorry, this page is in development</Subtitle>
     </div>
   );
 }
