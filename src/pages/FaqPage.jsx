@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 
 import css from "../styles/general.module.css";
+import Title from "../components/Title/Title";
+import Faq from "../components/Faq/Faq";
 
 export default function FaqPage() {
   useEffect(() => {
@@ -9,7 +11,8 @@ export default function FaqPage() {
 
   return (
     <div className={css.container}>
-      <h1 className={css.title}>FAQ</h1>
+      <Title>FAQ</Title>
+      <Faq />
     </div>
   );
 }
