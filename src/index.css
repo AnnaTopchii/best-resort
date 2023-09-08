@@ -45,11 +45,13 @@ ul {
   list-style: none;
 }
 
-div {
+div,
+li {
   box-sizing: border-box;
 }
 
 img {
+  box-sizing: border-box;
   display: block;
   max-width: 100%;
   height: auto;
