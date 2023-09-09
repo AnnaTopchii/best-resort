@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/best-resort/static/css/main.aa43b354.css",
-    "main.js": "/best-resort/static/js/main.5bfbc4bf.js",
+    "main.css": "/best-resort/static/css/main.334df1e1.css",
+    "main.js": "/best-resort/static/js/main.ea826f23.js",
     "static/css/550.b121590f.chunk.css": "/best-resort/static/css/550.b121590f.chunk.css",
     "static/js/550.9441d7e1.chunk.js": "/best-resort/static/js/550.9441d7e1.chunk.js",
     "static/css/540.892a2284.chunk.css": "/best-resort/static/css/540.892a2284.chunk.css",
     "static/js/540.b18e2ea5.chunk.js": "/best-resort/static/js/540.b18e2ea5.chunk.js",
-    "static/css/232.dcbc8811.chunk.css": "/best-resort/static/css/232.dcbc8811.chunk.css",
+    "static/css/232.bf06030a.chunk.css": "/best-resort/static/css/232.bf06030a.chunk.css",
     "static/js/232.ac9130dc.chunk.js": "/best-resort/static/js/232.ac9130dc.chunk.js",
     "static/css/486.99464294.chunk.css": "/best-resort/static/css/486.99464294.chunk.css",
     "static/js/486.2112ae0e.chunk.js": "/best-resort/static/js/486.2112ae0e.chunk.js",
@@ -71,13 +71,13 @@
     "static/media/shef.jpg": "/best-resort/static/media/shef.7b93eccbc7523efe928c.jpg",
     "static/media/accommodation.jpg": "/best-resort/static/media/accommodation.33cbe45595a1e4d492a0.jpg",
     "index.html": "/best-resort/index.html",
-    "main.aa43b354.css.map": "/best-resort/static/css/main.aa43b354.css.map",
-    "main.5bfbc4bf.js.map": "/best-resort/static/js/main.5bfbc4bf.js.map",
+    "main.334df1e1.css.map": "/best-resort/static/css/main.334df1e1.css.map",
+    "main.ea826f23.js.map": "/best-resort/static/js/main.ea826f23.js.map",
     "550.b121590f.chunk.css.map": "/best-resort/static/css/550.b121590f.chunk.css.map",
     "550.9441d7e1.chunk.js.map": "/best-resort/static/js/550.9441d7e1.chunk.js.map",
     "540.892a2284.chunk.css.map": "/best-resort/static/css/540.892a2284.chunk.css.map",
     "540.b18e2ea5.chunk.js.map": "/best-resort/static/js/540.b18e2ea5.chunk.js.map",
-    "232.dcbc8811.chunk.css.map": "/best-resort/static/css/232.dcbc8811.chunk.css.map",
+    "232.bf06030a.chunk.css.map": "/best-resort/static/css/232.bf06030a.chunk.css.map",
     "232.ac9130dc.chunk.js.map": "/best-resort/static/js/232.ac9130dc.chunk.js.map",
     "486.99464294.chunk.css.map": "/best-resort/static/css/486.99464294.chunk.css.map",
     "486.2112ae0e.chunk.js.map": "/best-resort/static/js/486.2112ae0e.chunk.js.map",
@@ -100,7 +100,7 @@
     "126.007a6a87.chunk.js.map": "/best-resort/static/js/126.007a6a87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa43b354.css",
-    "static/js/main.5bfbc4bf.js"
+    "static/css/main.334df1e1.css",
+    "static/js/main.ea826f23.js"
   ]
 }
