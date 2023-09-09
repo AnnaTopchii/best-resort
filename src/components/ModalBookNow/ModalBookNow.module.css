@@ -226,19 +226,25 @@
   background: rgba(255, 255, 255, 0.8);
   padding: 6px 12px;
   font-size: 12px;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .input {
     width: 510px;
     height: 40px;
     font-size: 24px;
     padding: 8px 16px;
   }
+}
 
-  @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .input {
     width: 535px;
   }
+}
 
-  @media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
+  .input {
     height: 50px;
     padding: 10px 20px;
   }

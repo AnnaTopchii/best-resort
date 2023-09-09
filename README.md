@@ -10,6 +10,7 @@ The website consists of nine pages.
 ACCOMMODATION: Displays grid of all hotel room types. Clicking on each room type provides detailed information on the ROOM PAGE.
 SPECIAL OFFERS: Discover hotel promotions, seasonal discounts, and loyalty programs for guests.
 RESTAURANTS & BARS: Explore the hotel's dining options, including descriptions of each restaurant and bar, their cuisines, ambiance, and operating hours, for a diverse culinary experience.
+WEDDINGS: Displays how perfect can be your wedding in our hotel.
 SERVICES: Highlighting hotel amenities such as spa, pools, sports activities, and guided tours, enhancing guests' stay with wellness options and outdoor recreation.
 FAQ: Page presents frequently asked questions.
 CONTACT PAGE: allows users to get in touch with the hotel.
