@@ -1,0 +1,215 @@
+.wedding {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 40px;
+  }
+}
+
+.content_block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 100px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    gap: 300px;
+  }
+}
+
+.left_block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media screen and (min-width: 768px) {
+    gap: 40px;
+  }
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 50px;
+  }
+}
+.main_text {
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+  }
+}
+
+.text {
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+  }
+}
+
+.text_box {
+  padding: 20px;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    left: 264px;
+    bottom: 65px;
+    width: 300px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    left: 521px;
+    bottom: 120px;
+    font-size: 30px;
+    padding: 40px;
+    width: 554px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    left: 722px;
+    bottom: 77px;
+  }
+}
+
+.img_table {
+  display: none;
+  margin-top: auto;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    object-fit: cover;
+    width: 265px;
+    height: 265px;
+    border-radius: 0px 0px 0px 150px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 522px;
+    height: 503px;
+    border-radius: 0px 0px 0px 200px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 722px;
+    height: 625px;
+  }
+}
+
+.img_couple {
+  border-radius: 100px 0px 0px 0px;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    object-fit: cover;
+    width: 332px;
+    height: 620px;
+    border-radius: 150px 0px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 522px;
+    height: 923px;
+    border-radius: 200px 0px 0px 0px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 590px;
+    height: 960px;
+  }
+}
+
+.text_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main_text_block {
+  color: var(--yellow-color-50);
+  font-size: 52px;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  line-height: 100%;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    font-size: 113px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 190px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 265px;
+  }
+}
+
+.sec_text_block {
+  position: relative;
+  top: -15px;
+  color: var(--blue-color-50);
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  align-self: flex-end;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    top: -30px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 68px;
+    top: -60px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 95px;
+    top: -80px;
+  }
+}
