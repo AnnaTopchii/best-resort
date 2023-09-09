@@ -6,8 +6,11 @@
   @media screen and (min-width: 768px) {
     gap: 40px;
   }
+}
 
-  @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .container {
+    flex-direction: column;
     gap: 80px;
   }
 }
@@ -20,13 +23,18 @@
   @media screen and (min-width: 768px) {
     gap: 40px;
   }
+}
 
-  @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .section {
     flex-direction: row-reverse;
     gap: 50px;
   }
+}
 
-  @media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
+  .section {
+    flex-direction: row-reverse;
     gap: 150px;
   }
 }

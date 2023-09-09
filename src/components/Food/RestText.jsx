@@ -4,7 +4,7 @@ import Subtitle from "../Title/Subtitle";
 export default function RestText() {
   return (
     <div className={css.content_container}>
-      <div className={css.text_container}>
+      <div className={css.rest_text_container}>
         <div className={css.subtitle_container}>
           <Subtitle>Playa Restaurant</Subtitle>
         </div>
@@ -20,7 +20,7 @@ export default function RestText() {
         </p>
       </div>
 
-      <div className={css.text_container}>
+      <div className={css.rest_text_container}>
         <div className={css.subtitle_container}>
           <Subtitle>Prestige Restaurant</Subtitle>
         </div>

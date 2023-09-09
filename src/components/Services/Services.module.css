@@ -20,13 +20,17 @@
   @media screen and (min-width: 768px) {
     gap: 50px;
   }
+}
 
-  @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
+  .section {
     flex-direction: row;
     gap: 20px;
   }
+}
 
-  @media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
+  .section {
     gap: 90px;
   }
 }

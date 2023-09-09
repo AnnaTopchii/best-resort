@@ -17,7 +17,7 @@ export default function RestText() {
         <p className={css.time}>9:00–00:00</p>
       </div>
 
-      <div className={css.text_container_small}>
+      <div className={css.text_container}>
         <div className={css.subtitle_container}>
           <Subtitle>Pool Bar</Subtitle>
         </div>
@@ -29,7 +29,7 @@ export default function RestText() {
         <p className={css.time}>10:00–18:00</p>
       </div>
 
-      <div className={css.text_container_small}>
+      <div className={css.text_container}>
         <div className={css.subtitle_container}>
           <Subtitle>Sunset Champagne Bar</Subtitle>
         </div>
