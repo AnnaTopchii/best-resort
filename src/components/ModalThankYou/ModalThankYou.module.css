@@ -52,8 +52,7 @@
   }
 
   @media screen and (min-width: 1440px) {
-    width: 900px;
-    padding: 0 10px 80px;
+    width: 600px;
   }
 }
 
@@ -94,14 +93,10 @@
 }
 
 .modal_content {
-  padding: 50px 10px;
+  padding: 30px 10px;
 
   @media screen and (min-width: 768px) {
     padding: 50px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    padding: 80px 150px;
   }
 }
 
@@ -110,11 +105,11 @@
   font-size: 24px;
 
   @media screen and (min-width: 768px) {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 50px;
+    font-size: 36px;
   }
 }
 
