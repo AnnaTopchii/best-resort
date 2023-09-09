@@ -79,15 +79,19 @@
 
 .went_wrong_mob {
   color: var(--blue-color);
-  font-size: 39px;
+  font-size: 32px;
   font-weight: 300;
   line-height: 100%;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   align-self: center;
 
+  @media screen and (min-width: 360px) {
+    font-size: 39px;
+  }
+
   @media screen and (min-width: 768px) {
-    font-size: 86px;
+    font-size: 84px;
   }
 
   @media screen and (min-width: 1440px) {
